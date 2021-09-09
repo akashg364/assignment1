@@ -13,8 +13,12 @@ Exercise 1:
 	'password' => '',
 	'database' => 'assignmentdb', 
 
-For sample data generator run below command in project directory
-php cli_command.php
+ - For sample data generator run below command in project directory
+	php cli_command.php
+ 
+ - To see output of geometric figure please run below method: 
+ 	http://localhost/assignment/assignment/drawGeoGraphicFigure
+
 
 *******************
 Exercise 2:
@@ -26,7 +30,7 @@ Exercise 3:
 *******************
  - using postman tool you can execute below curl commands
 
-2) update record
+- update record
 curl --location --request PUT 'http://localhost/assignment/routerapi' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: MyRandomToken' \
@@ -37,9 +41,7 @@ curl --location --request PUT 'http://localhost/assignment/routerapi' \
     "mac_address":"test"
 }'
 
-3) create new record:
-
-
+- create new record:
 curl --location --request POST 'http://localhost/assignment/routerapi' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: MyRandomToken' \
@@ -50,15 +52,13 @@ curl --location --request POST 'http://localhost/assignment/routerapi' \
     "mac_address":"test"
 }'
 
-4) Get router list based on sap Id:
-
+- Get router list based on sap Id:
 
 curl --location --request GET 'http://localhost/assignment/routerapi/?sapId=sampleSapId_1' \
 --header 'Content-Type: application/json' \
 --header 'X-API-KEY: MyRandomToken'
 
-5) Get router list based on ip range:
-
+- Get router list based on ip range:
 
 curl --location --request GET 'http://localhost/assignment/routerapi/?ipStart=127.0.0.1&ipEnd=127.0.0.1' \
 --header 'Content-Type: application/json' \
