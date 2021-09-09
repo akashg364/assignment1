@@ -1,7 +1,9 @@
 ###################
-Assignment has been created using Codeigniter
+Used codeigniter for the assignment
 ###################
+*******************
 Exercise 1:
+*******************
  - create project directory in your xampp or wamp
  - extract attached zip file
  - import DB/assignment_db.sql in your database
@@ -14,12 +16,15 @@ Exercise 1:
 For sample data generator run below command in project directory
 php cli_command.php
 
+*******************
 Exercise 2:
-- please check Exercise2.doc file in extracted zip file.
+*******************
+ - please check Exercise2.doc file in extracted zip file.
 
-
+*******************
 Exercise 3:
-- using postman tool you can execute below curl commands
+*******************
+ - using postman tool you can execute below curl commands
 
 2) update record
 curl --location --request PUT 'http://localhost/assignment/routerapi' \
