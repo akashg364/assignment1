@@ -27,15 +27,15 @@ Exercise 3:
  - using postman tool you can execute below curl commands
 
 2) update record
-curl --location --request PUT 'http://localhost/assignment/routerapi' \
---header 'Content-Type: application/json' \
---header 'X-API-KEY: MyRandomToken' \
---data-raw '{
-    "sapid":"123",
-    "hostname":"test42.com",
-    "loopback":"127.0.0.2",
-    "mac_address":"test"
-}'
+- `curl --location --request PUT 'http://localhost/assignment/routerapi' \`
+- `--header 'Content-Type: application/json' \`
+- `--header 'X-API-KEY: MyRandomToken' \`
+- `--data-raw '{`
+-    `"sapid":"123",`
+-    `"hostname":"test42.com",`
+-    `"loopback":"127.0.0.2",`
+-    `"mac_address":"test"`
+- `}'`
 
 3) create new record
 curl --location --request POST 'http://localhost/assignment/routerapi' \
